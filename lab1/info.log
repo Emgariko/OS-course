@@ -1,0 +1,499 @@
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6419] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6419] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6419] dhcp4 (wlp2s0): option expiry               => '1600726414'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6420] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6421] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6422] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 00:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600722814.6422] dhcp4 (wlp2s0): state changed extended -> extended
+Sep 22 00:28:21 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600723701.6065] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 22 00:28:21 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600723701.6066] device (enp1s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 22 00:28:21 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600723701.6287] device (p2p-dev-wlp2s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 22 00:28:21 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600723701.6304] manager: NetworkManager state is now ASLEEP
+Sep 22 18:39:38 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789178.4385] dhcp4 (wlp2s0): state changed extended -> expire
+Sep 22 18:39:38 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789178.4386] device (wlp2s0): DHCPv4: trying to acquire a new lease within 90 seconds
+Sep 22 18:39:38 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789178.4539] device (wlp2s0): supplicant interface state: completed -> disconnected
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789178.5505] device (wlp2s0): supplicant interface state: disconnected -> scanning
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.3492] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.3494] device (wlp2s0): state change: activated -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.3727] dhcp4 (wlp2s0): canceled DHCP transaction
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.3727] dhcp4 (wlp2s0): state changed expire -> done
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.3763] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.3817] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.3821] device (enp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.4875] device (wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.4911] device (p2p-dev-wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.6578] sup-iface[0x55a8dc6c5120,wlp2s0]: supports 5 scan SSIDs
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.6587] device (wlp2s0): supplicant interface state: starting -> ready
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.6587] device (p2p-dev-wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 22 18:39:39 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789179.6591] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 22 18:39:41 emil-HP-ProBook-440-G4 ModemManager[760]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+Sep 22 18:39:41 emil-HP-ProBook-440-G4 ModemManager[760]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.5/0000:02:00.0': not supported by any plugin
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2259] policy: auto-activating connection 'Redmi' (97692259-0922-4463-b522-77b12c13a4c3)
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2276] device (wlp2s0): Activation: starting connection 'Redmi' (97692259-0922-4463-b522-77b12c13a4c3)
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2278] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2281] manager: NetworkManager state is now CONNECTING
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2285] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2289] device (wlp2s0): Activation: (wifi) access point 'Redmi' has security, but secrets are required.
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2289] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2708] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2717] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2720] device (wlp2s0): Activation: (wifi) connection 'Redmi' has security, and secrets exist.  No new secrets needed.
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2721] Config: added 'ssid' value 'Redmi'
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2721] Config: added 'scan_ssid' value '1'
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2721] Config: added 'bgscan' value 'simple:30:-70:86400'
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2721] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2721] Config: added 'auth_alg' value 'OPEN'
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2721] Config: added 'psk' value '<hidden>'
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2883] device (wlp2s0): supplicant interface state: ready -> authenticating
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2883] device (p2p-dev-wlp2s0): supplicant management interface state: ready -> authenticating
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2961] device (wlp2s0): supplicant interface state: authenticating -> associating
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.2961] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.3282] device (wlp2s0): supplicant interface state: associating -> associated
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.3282] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.4649] device (wlp2s0): supplicant interface state: associated -> 4-way handshake
+Sep 22 18:39:43 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789183.4650] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> 4-way handshake
+Sep 22 18:39:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789187.6123] device (wlp2s0): supplicant interface state: 4-way handshake -> disconnected
+Sep 22 18:39:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789187.6138] device (wlp2s0): Activation: (wifi) disconnected during association, asking for new key
+Sep 22 18:39:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789187.6140] device (wlp2s0): state change: config -> need-auth (reason 'supplicant-disconnect', sys-iface-state: 'managed')
+Sep 22 18:39:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789187.6152] device (p2p-dev-wlp2s0): supplicant management interface state: 4-way handshake -> disconnected
+Sep 22 18:39:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789187.7124] device (wlp2s0): supplicant interface state: disconnected -> scanning
+Sep 22 18:39:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789187.7126] device (p2p-dev-wlp2s0): supplicant management interface state: disconnected -> scanning
+Sep 22 18:39:48 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789188.6010] device (wlp2s0): supplicant interface state: scanning -> inactive
+Sep 22 18:39:48 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789188.6018] device (p2p-dev-wlp2s0): supplicant management interface state: scanning -> inactive
+Sep 22 18:41:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789307.6327] device (wlp2s0): state change: need-auth -> failed (reason 'no-secrets', sys-iface-state: 'managed')
+Sep 22 18:41:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789307.6344] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 22 18:41:47 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789307.6396] device (wlp2s0): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6544] device (wlp2s0): Activation: starting connection 'Redmi' (97692259-0922-4463-b522-77b12c13a4c3)
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6548] audit: op="connection-activate" uuid="97692259-0922-4463-b522-77b12c13a4c3" name="Redmi" pid=1129 uid=1000 result="success"
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6552] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6586] manager: NetworkManager state is now CONNECTING
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6597] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6610] device (wlp2s0): Activation: (wifi) access point 'Redmi' has security, but secrets are required.
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6610] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6872] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6875] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6878] device (wlp2s0): Activation: (wifi) connection 'Redmi' has security, and secrets exist.  No new secrets needed.
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6878] Config: added 'ssid' value 'Redmi'
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6878] Config: added 'scan_ssid' value '1'
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6878] Config: added 'bgscan' value 'simple:30:-70:86400'
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6879] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6879] Config: added 'auth_alg' value 'OPEN'
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.6879] Config: added 'psk' value '<hidden>'
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.7032] device (wlp2s0): supplicant interface state: inactive -> scanning
+Sep 22 18:44:28 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789468.7032] device (p2p-dev-wlp2s0): supplicant management interface state: inactive -> scanning
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.6473] device (wlp2s0): supplicant interface state: scanning -> authenticating
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.6474] device (p2p-dev-wlp2s0): supplicant management interface state: scanning -> authenticating
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.6603] device (wlp2s0): supplicant interface state: authenticating -> associating
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.6605] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.6811] device (wlp2s0): supplicant interface state: associating -> associated
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.6812] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.8789] device (wlp2s0): supplicant interface state: associated -> 4-way handshake
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.8791] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> 4-way handshake
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.8897] device (wlp2s0): supplicant interface state: 4-way handshake -> completed
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.8897] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Redmi"
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.8898] device (p2p-dev-wlp2s0): supplicant management interface state: 4-way handshake -> completed
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.8902] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.8911] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9941] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9942] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9942] dhcp4 (wlp2s0): option expiry               => '1600793069'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9942] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9943] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9943] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9943] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9944] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9944] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9944] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9944] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9945] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 18:44:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9945] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9945] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9945] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9946] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9946] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9946] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9947] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9947] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9947] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9947] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9948] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9948] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789469.9948] dhcp4 (wlp2s0): state changed unknown -> bound
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.0012] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.0648] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.0659] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.0677] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.0847] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.0857] policy: set 'Redmi' (wlp2s0) as default for IPv4 routing and DNS
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.0927] device (wlp2s0): Activation: successful, device activated.
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.0962] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 18:44:30 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789470.1364] audit: op="statistics" arg="refresh-rate-ms" pid=1129 uid=1000 result="success"
+Sep 22 18:44:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600789473.2650] audit: op="statistics" arg="refresh-rate-ms" pid=1129 uid=1000 result="success"
+Sep 22 19:05:20 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790720.6332] device (wlp2s0): supplicant interface state: completed -> disconnected
+Sep 22 19:05:20 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790720.6332] device (p2p-dev-wlp2s0): supplicant management interface state: completed -> disconnected
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.1823] device (wlp2s0): supplicant interface state: disconnected -> authenticating
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.1824] device (p2p-dev-wlp2s0): supplicant management interface state: disconnected -> authenticating
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.1870] device (wlp2s0): supplicant interface state: authenticating -> associating
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.1871] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.2076] device (wlp2s0): supplicant interface state: associating -> associated
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.2076] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.2125] device (wlp2s0): supplicant interface state: associated -> 4-way handshake
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.2126] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> 4-way handshake
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.2726] device (wlp2s0): supplicant interface state: 4-way handshake -> completed
+Sep 22 19:05:24 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600790724.2733] device (p2p-dev-wlp2s0): supplicant management interface state: 4-way handshake -> completed
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9630] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9630] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9630] dhcp4 (wlp2s0): option expiry               => '1600794869'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9631] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9631] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9631] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9631] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9632] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9632] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9632] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9632] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9632] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9633] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9633] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9633] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9633] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9634] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9634] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9634] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9634] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9635] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9635] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9635] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9635] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 19:14:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600791269.9635] dhcp4 (wlp2s0): state changed bound -> extended
+Sep 22 19:42:15 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9634] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 19:42:15 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9634] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9635] dhcp4 (wlp2s0): option expiry               => '1600796535'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9635] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9635] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9635] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9635] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9635] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9635] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9636] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9636] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9636] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9636] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9636] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9636] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9636] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9636] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9637] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9637] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9637] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9637] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9637] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9637] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9637] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 19:42:16 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600792935.9637] dhcp4 (wlp2s0): state changed extended -> extended
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0315] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0316] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0316] dhcp4 (wlp2s0): option expiry               => '1600798195'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0316] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0316] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0317] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0317] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0317] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0317] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0317] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0317] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0318] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0318] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0318] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0319] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0319] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0319] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0320] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0320] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0320] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0320] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0321] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0321] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0321] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 20:09:56 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600794596.0321] dhcp4 (wlp2s0): state changed extended -> extended
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0326] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0326] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0326] dhcp4 (wlp2s0): option expiry               => '1600799848'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0327] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0327] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0327] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0327] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0328] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0328] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0328] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0328] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0328] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0329] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0329] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0329] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0329] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0329] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0330] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0330] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0330] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0330] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0331] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0331] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0331] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 20:37:29 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600796249.0332] dhcp4 (wlp2s0): state changed extended -> extended
+Sep 22 21:04:26 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9744] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9745] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9746] dhcp4 (wlp2s0): option expiry               => '1600801466'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9746] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9746] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9747] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9747] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9747] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9747] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9748] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9748] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9748] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9748] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9748] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9749] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9749] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9749] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9749] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9750] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9750] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9750] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9750] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9750] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9751] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 21:04:27 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600797866.9751] dhcp4 (wlp2s0): state changed extended -> extended
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.1630] device (wlp2s0): supplicant interface state: completed -> disconnected
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.1630] device (p2p-dev-wlp2s0): supplicant management interface state: completed -> disconnected
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.2394] device (wlp2s0): supplicant interface state: disconnected -> scanning
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.2395] device (p2p-dev-wlp2s0): supplicant management interface state: disconnected -> scanning
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.3514] device (wlp2s0): supplicant interface state: scanning -> authenticating
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.3515] device (p2p-dev-wlp2s0): supplicant management interface state: scanning -> authenticating
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.3709] device (wlp2s0): supplicant interface state: authenticating -> associating
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.3710] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.3976] device (wlp2s0): supplicant interface state: associating -> associated
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.3977] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.4191] device (wlp2s0): supplicant interface state: associated -> 4-way handshake
+Sep 22 21:11:01 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798261.4191] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> 4-way handshake
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.4549] device (wlp2s0): supplicant interface state: 4-way handshake -> disconnected
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.4561] device (wlp2s0): Activation: (wifi) disconnected during association, asking for new key
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.4562] device (wlp2s0): state change: activated -> need-auth (reason 'supplicant-disconnect', sys-iface-state: 'managed')
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.4563] dhcp4 (wlp2s0): canceled DHCP transaction
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.4563] dhcp4 (wlp2s0): state changed extended -> done
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.4574] manager: NetworkManager state is now CONNECTING
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.4609] device (p2p-dev-wlp2s0): supplicant management interface state: 4-way handshake -> disconnected
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.5553] device (wlp2s0): supplicant interface state: disconnected -> inactive
+Sep 22 21:11:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798265.5554] device (p2p-dev-wlp2s0): supplicant management interface state: disconnected -> inactive
+Sep 22 21:13:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798385.5438] device (wlp2s0): state change: need-auth -> failed (reason 'no-secrets', sys-iface-state: 'managed')
+Sep 22 21:13:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798385.5450] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 22 21:13:05 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798385.5487] device (wlp2s0): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4471] device (wlp2s0): Activation: starting connection 'Redmi' (97692259-0922-4463-b522-77b12c13a4c3)
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4474] audit: op="connection-activate" uuid="97692259-0922-4463-b522-77b12c13a4c3" name="Redmi" pid=1129 uid=1000 result="success"
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4477] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4487] manager: NetworkManager state is now CONNECTING
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4498] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4507] device (wlp2s0): Activation: (wifi) access point 'Redmi' has security, but secrets are required.
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4508] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4895] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4900] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4905] device (wlp2s0): Activation: (wifi) connection 'Redmi' has security, and secrets exist.  No new secrets needed.
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4905] Config: added 'ssid' value 'Redmi'
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4905] Config: added 'scan_ssid' value '1'
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4905] Config: added 'bgscan' value 'simple:30:-70:86400'
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4906] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4906] Config: added 'auth_alg' value 'OPEN'
+Sep 22 21:13:31 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798411.4906] Config: added 'psk' value '<hidden>'
+Sep 22 21:13:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798413.5087] device (wlp2s0): supplicant interface state: inactive -> scanning
+Sep 22 21:13:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798413.5088] device (p2p-dev-wlp2s0): supplicant management interface state: inactive -> scanning
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.4508] device (wlp2s0): supplicant interface state: scanning -> authenticating
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.4509] device (p2p-dev-wlp2s0): supplicant management interface state: scanning -> authenticating
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.4787] device (wlp2s0): supplicant interface state: authenticating -> associating
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.4787] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.5030] device (wlp2s0): supplicant interface state: associating -> 4-way handshake
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.5030] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> 4-way handshake
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.5156] device (wlp2s0): supplicant interface state: 4-way handshake -> completed
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.5157] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Redmi"
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.5157] device (p2p-dev-wlp2s0): supplicant management interface state: 4-way handshake -> completed
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.5161] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.5172] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6320] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6321] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6321] dhcp4 (wlp2s0): option expiry               => '1600802014'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6321] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6321] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6321] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6322] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6322] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6322] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6322] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6322] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6322] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6323] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6323] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6323] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6324] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6324] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6324] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6324] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6324] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6324] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6325] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6325] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6325] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6325] dhcp4 (wlp2s0): state changed unknown -> bound
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.6463] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.7318] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.7330] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.7398] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.7468] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.7471] policy: set 'Redmi' (wlp2s0) as default for IPv4 routing and DNS
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.7482] device (wlp2s0): Activation: successful, device activated.
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.7505] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.8391] audit: op="statistics" arg="refresh-rate-ms" pid=1129 uid=1000 result="success"
+Sep 22 21:13:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600798414.9137] audit: op="statistics" arg="refresh-rate-ms" pid=1129 uid=1000 result="success"
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6674] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6675] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6675] dhcp4 (wlp2s0): option expiry               => '1600803814'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6676] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6676] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6676] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6677] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6677] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6677] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6678] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6678] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6678] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6678] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6679] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6679] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6679] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6680] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6680] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6680] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6680] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6681] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6681] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6681] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6681] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 21:43:34 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600800214.6682] dhcp4 (wlp2s0): state changed bound -> extended
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7187] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7188] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7188] dhcp4 (wlp2s0): option expiry               => '1600805433'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7188] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7188] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7188] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7188] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7188] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7188] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7189] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7189] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7189] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7189] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7189] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7189] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7189] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 22:10:33 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600801833.7190] dhcp4 (wlp2s0): state changed extended -> extended
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5851] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5851] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5852] dhcp4 (wlp2s0): option expiry               => '1600807064'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5852] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5852] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5852] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5852] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5853] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5853] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5853] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5853] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5853] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5853] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5854] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5854] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5854] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5854] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5854] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5855] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5855] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5855] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5855] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5855] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5856] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 22:37:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600803464.5856] dhcp4 (wlp2s0): state changed extended -> extended
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7763] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7764] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7764] dhcp4 (wlp2s0): option expiry               => '1600808681'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7765] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7765] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7765] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7766] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7766] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7766] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7766] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7767] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7767] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7767] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7768] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7768] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7768] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7768] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7769] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7769] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7769] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7770] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7770] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7770] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7770] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 23:04:41 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600805081.7771] dhcp4 (wlp2s0): state changed extended -> extended
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5987] dhcp4 (wlp2s0): option dhcp_lease_time      => '3600'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5988] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.43.1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5988] dhcp4 (wlp2s0): option expiry               => '1600810364'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5988] dhcp4 (wlp2s0): option ip_address           => '192.168.43.188'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5989] dhcp4 (wlp2s0): option next_server          => '192.168.43.1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5989] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5989] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5989] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5989] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5989] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5990] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5990] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5990] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5991] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5991] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5991] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5991] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5991] dhcp4 (wlp2s0): option requested_routers    => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5992] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5992] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5992] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5992] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5992] dhcp4 (wlp2s0): option routers              => '192.168.43.1'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5993] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Sep 22 23:32:44 emil-HP-ProBook-440-G4 NetworkManager[650]: <info>  [1600806764.5993] dhcp4 (wlp2s0): state changed extended -> extended
