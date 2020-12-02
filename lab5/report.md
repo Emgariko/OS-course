@@ -83,11 +83,11 @@ MiB Swap:  11443,0 total,    386,7 free,  11056,2 used.     40,4 avail Mem
 | -------------------------------------------------------- | --------- |
 | Размер массива в конце работы скрипта **mem.bash** (`N`) | 291000000 |
 
-<img src="/home/emil/work/itmo/os/OS-course/lab5/report-img/1.png" alt="data" style="zoom: 150%;"/>
+<img src="report-img/1.png" alt="data" style="zoom: 150%;"/>
 
 > График отображающий кол-во использованной памяти процессом **mem.bash**
 
-<img src="/home/emil/work/itmo/os/OS-course/lab5/report-img/2.png" alt="process_data" style="zoom: 150%;" />
+<img src="report-img/2.png" alt="process_data" style="zoom: 150%;" />
 
 > График отображающий процент использованной памяти от общей памяти процессом **mem.bash**
 
@@ -152,13 +152,13 @@ user@user:~/lab5$ dmesg | grep "mem[2]*.bash"
 | Размер первого массива в конце работы скрипта **mem.bash** (`N`) | 289000000 |
 | Размер второго массива в конце работы скрипта **mem2.bash**  | 146000000 |
 
-<img src="/home/emil/work/itmo/os/OS-course/lab5/report-img/3.png" alt="data" style="zoom: 150%;" />
+<img src="report-img/3.png" alt="data" style="zoom: 150%;" />
 
 > График отображающий кол-во использованной памяти процессами **mem.bash** и **mem2.bash**
 
 
 
-<img src="/home/emil/work/itmo/os/OS-course/lab5/report-img/4.png" alt="process_data" style="zoom: 200%;" />
+<img src="report-img/4.png" alt="process_data" style="zoom: 200%;" />
 
 > График отображающий процент использованной памяти от общей памяти процессами **mem.bash** и **mem2.bash**
 
@@ -199,7 +199,7 @@ PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
 
 - При запуске `K=10` копий скрипта **newmem.bash** с ограничием на размер массива `N'=291000000/10=29100000` все скрипты завершились успешно. Ошибок в системном журнале нет:
 
-  ![image-20201202125520045](/home/emil/work/itmo/os/OS-course/lab5/report-img/5.png)
+  ![image-20201202125520045](report-img/5.png)
 
   Все скрипты завершены успешно потому что в сумме всем скриптам выделилось `N\K*K=N=291000000` памяти. То есть столько же, сколько и в первом этапе первого эксперимента. 
 
@@ -209,4 +209,4 @@ PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
 
 - Макимальное `N'` при котором `K=30` процессов завершатся успешно подобрать можно следующим образом: `N' = N / 30 = 9700000 `. Можно убедиться что все скрипты завершились успешно :
 
-  ![image-20201202125404648](/home/emil/work/itmo/os/OS-course/lab5/report-img/6.png)
+  ![image-20201202125404648](report-img/6.png)
