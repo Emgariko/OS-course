@@ -75,17 +75,19 @@ MiB Swap:  11443,0 total,    386,7 free,  11056,2 used.     40,4 avail Mem
 
 ```
 
-## 
+------
+
+
 
 | Величина                                                 | Значение  |
 | -------------------------------------------------------- | --------- |
 | Размер массива в конце работы скрипта **mem.bash** (`N`) | 291000000 |
 
-<img src="/home/emil/work/itmo/os/OS-course/lab5/task1/subtask1/data.png" alt="data" style="zoom: 150%;"/>
+<img src="/home/emil/work/itmo/os/OS-course/lab5/report-img/1.png" alt="data" style="zoom: 150%;"/>
 
 > График отображающий кол-во использованной памяти процессом **mem.bash**
 
-<img src="/home/emil/work/itmo/os/OS-course/lab5/task1/subtask1/process_data.png" alt="process_data" style="zoom: 150%;" />
+<img src="/home/emil/work/itmo/os/OS-course/lab5/report-img/2.png" alt="process_data" style="zoom: 150%;" />
 
 > График отображающий процент использованной памяти от общей памяти процессом **mem.bash**
 
@@ -150,13 +152,13 @@ user@user:~/lab5$ dmesg | grep "mem[2]*.bash"
 | Размер первого массива в конце работы скрипта **mem.bash** (`N`) | 289000000 |
 | Размер второго массива в конце работы скрипта **mem2.bash**  | 146000000 |
 
-<img src="/home/emil/work/itmo/os/OS-course/lab5/task1/subtask2/data.png" alt="data" style="zoom: 150%;" />
+<img src="/home/emil/work/itmo/os/OS-course/lab5/report-img/3.png" alt="data" style="zoom: 150%;" />
 
 > График отображающий кол-во использованной памяти процессами **mem.bash** и **mem2.bash**
 
 
 
-<img src="/home/emil/work/itmo/os/OS-course/lab5/task1/subtask2/process_data.png" alt="process_data" style="zoom: 200%;" />
+<img src="/home/emil/work/itmo/os/OS-course/lab5/report-img/4.png" alt="process_data" style="zoom: 200%;" />
 
 > График отображающий процент использованной памяти от общей памяти процессами **mem.bash** и **mem2.bash**
 
@@ -195,16 +197,16 @@ PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
 | ------------------------------------------------------------ | --------- |
 | Размер массива в конце работы скрипта **mem.bash** из первого эксперимента (`N`) | 291000000 |
 
-- ​	При запуске `K=10` копий скрипта **newmem.bash** с ограничием на размер массива `N'=291000000/10=29100000` все скрипты завершились успешно. Ошибок в системном журнале нет:
+- При запуске `K=10` копий скрипта **newmem.bash** с ограничием на размер массива `N'=291000000/10=29100000` все скрипты завершились успешно. Ошибок в системном журнале нет:
 
-  ![image-20201202125520045](/home/emil/.config/Typora/typora-user-images/image-20201202125520045.png)
+  ![image-20201202125520045](/home/emil/work/itmo/os/OS-course/lab5/report-img/5.png)
 
   Все скрипты завершены успешно потому что в сумме всем скриптам выделилось `N\K*K=N=291000000` памяти. То есть столько же, сколько и в первом этапе первого эксперимента. 
 
 - Попытка увеличить `K` до `30`  закончилась тем, что ряд процессов завершился аварийно. Это происходит потому что скриптов стало много и суммарно они требуют памяти больше чем всего `RAM`.
 
-  [Записи в системном журнале об аварийном завершении скриптов](/home/emil/work/itmo/os/OS-course/lab5/task2/k30_sisjournal-log.log)
+  [Записи в системном журнале об аварийном завершении скриптов](task2/k30_sisjournal-log.log)
 
 - Макимальное `N'` при котором `K=30` процессов завершатся успешно подобрать можно следующим образом: `N' = N / 30 = 9700000 `. Можно убедиться что все скрипты завершились успешно :
 
-  ![image-20201202125404648](/home/emil/.config/Typora/typora-user-images/image-20201202125404648.png)
+  ![image-20201202125404648](/home/emil/work/itmo/os/OS-course/lab5/report-img/6.png)
