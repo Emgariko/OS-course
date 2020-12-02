@@ -1,0 +1,9 @@
+[  765.783016] [   3779]  1000  3779  2825392  1455865 22679552  1367335             0 mem.bash
+[  765.783017] [   3780]  1000  3780  2854168  1454418 22917120  1397402             0 mem2.bash
+[  765.783024] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-3.scope,task=mem2.bash,pid=3780,uid=1000
+[  765.783033] Out of memory: Killed process 3780 (mem2.bash) total-vm:11416672kB, anon-rss:5817672kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:22380kB oom_score_adj:0
+[  765.976770] oom_reaper: reaped process 3780 (mem2.bash), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 1151.672144] [   3779]  1000  3779  5659861  2871944 45400064  2785604             0 mem.bash
+[ 1151.672160] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-3.scope,task=mem.bash,pid=3779,uid=1000
+[ 1151.672169] Out of memory: Killed process 3779 (mem.bash) total-vm:22639444kB, anon-rss:11487776kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:44336kB oom_score_adj:0
+[ 1152.098615] oom_reaper: reaped process 3779 (mem.bash), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
