@@ -1,0 +1,8 @@
+2.1)
+	hostname
+	md emil-PC\temp
+	net share temp=C:\work\itmo\OS-course\lab6\task2\emil-PC\temp
+2.2)
+	xcopy /z C:\Windows\explorer.exe C:\work\itmo\OS-course\lab6\task2\emil-PC\temp
+2.3)
+	schtasks /create /tn "copy" /sc minute /mo 1 /tr "C:\work\itmo\OS-course\lab6\task2\mycopy.cmd"

@@ -1,0 +1,4 @@
+4.1)
+	DriverQuery /FO TABLE > DRIVERS.txt
+4.2)
+	sort < DRIVERS.txt > SORTED_DRIVERS.txt /R 

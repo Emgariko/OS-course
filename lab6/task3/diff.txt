@@ -1,0 +1,10 @@
+Сравнение файлов all_services.txt и ALL_SERVICES_WITHOUT_DNS.TXT
+***** all_services.txt
+Имя_службы: Dhcp
+Имя_службы: Dnscache
+Имя_службы: DPS
+***** ALL_SERVICES_WITHOUT_DNS.TXT
+Имя_службы: Dhcp
+Имя_службы: DPS
+*****
+

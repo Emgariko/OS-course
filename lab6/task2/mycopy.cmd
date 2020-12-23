@@ -1,0 +1,1 @@
+xcopy /z C:\Windows\explorer.exe C:\work\itmo\OS-course\lab6\task2\emil-PC\temp

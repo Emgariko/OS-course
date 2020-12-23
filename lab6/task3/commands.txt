@@ -1,0 +1,11 @@
+3.1)
+	sc query | find "Èìÿ" > all_services.txt
+3.2.1)
+	net stop Dnscache
+3.2.2)
+	timeout /T 10 /NOBREAK
+	sc query | find "Èìÿ" > all_services_without_DNS.txt
+3.2.3)
+	fc all_services.txt all_services_without_DNS.txt > diff.txt
+3.2.4)
+	net start Dnsacache
